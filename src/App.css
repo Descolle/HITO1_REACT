@@ -8,3 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.PizzaFondo {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-black-minimalist-blackboard-tea-restaurant-pizza-e-commerce-banner-picture-image_1093777.jpg);
+  height: 50vh;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}

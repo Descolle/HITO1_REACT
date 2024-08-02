@@ -1,6 +1,12 @@
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <div className="PizzaFondo">
+        <h2>¡Pizzeria Mamma Mia!</h2>
+        <h5>Las mejores pizzas que podrías desear</h5>
+        <hr></hr>
+      </div>
+    </div>
   )
 }
 
