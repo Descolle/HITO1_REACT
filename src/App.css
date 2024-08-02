@@ -1,0 +1,10 @@
+.NavBar {
+  width: 100%;
+}
+
+.CardPizza {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
