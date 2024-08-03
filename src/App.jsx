@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./components/Navbar";
 import Home from "./components/Home";
 import CardPizza from "./components/CardPizza";
 import "./App.css";
@@ -7,7 +6,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <NavBar></NavBar>
       <Home></Home>
       <div className="pizzacontainer">
       <CardPizza

@@ -7,7 +7,7 @@ function CardPizza({ name, price, ingredients, picture }) {
   return (
     <div className="PizzaContainer">
       <div>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem" }} className="pizza">
           <Card.Img variant="top" src={picture} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
