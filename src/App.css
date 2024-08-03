@@ -1,12 +1,16 @@
 .NavBar {
   width: 100%;
+  display: grid;
 }
 
-.CardPizza {
+.items {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+.PizzaContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .PizzaFondo {
