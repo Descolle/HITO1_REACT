@@ -8,8 +8,9 @@
   flex-direction: column;
   justify-content: center;
 }
-.PizzaContainer {
+.pizzacontainer {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 

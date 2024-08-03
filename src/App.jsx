@@ -9,6 +9,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <Home></Home>
+      <div className="pizzacontainer">
       <CardPizza
         name="Española"
         price={6950}
@@ -27,6 +28,7 @@ function App() {
         ingredients={`mozzarella, tomates, jamón, orégano`}
         picture="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
       ></CardPizza>
+      </div>
     </>
   );
 }
