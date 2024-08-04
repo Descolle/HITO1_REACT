@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import Button from 'react-bootstrap/Button';
-
+import Button from "react-bootstrap/Button";
 
 function CardPizza({ name, price, ingredients, picture }) {
   return (
@@ -19,8 +18,8 @@ function CardPizza({ name, price, ingredients, picture }) {
             <ListGroup.Item>Valor:{price}</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-          <Button variant="primary">Ver Más</Button>{' '}
-          <Button variant="success">🛒Añadir al Carrito</Button>{' '}
+            <Button variant="primary">Ver Más</Button>{" "}
+            <Button variant="success">🛒Añadir al Carrito</Button>{" "}
           </Card.Body>
         </Card>
       </div>

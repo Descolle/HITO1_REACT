@@ -8,24 +8,24 @@ function App() {
     <>
       <Home></Home>
       <div className="pizzacontainer">
-      <CardPizza
-        name="Española"
-        price={6950}
-        ingredients={`mozzarella, gorgonzola, parmesano, provolone`}
-        picture='https://img-global.cpcdn.com/recipes/c8a84ffca7fcb1ab/680x482cq70/pizza-espanola-foto-principal.jpg'
-      ></CardPizza>
-      <CardPizza
-        name="Pepperoni"
-        price={6950}
-        ingredients={`mozzarella, pepperoni, orégano`}
-        picture="https://tupizzaiolo.com/wp-content/uploads/2021/07/Diseno-sin-titulo-1-min.jpg"
-      ></CardPizza>
-      <CardPizza
-        name="Napolitana"
-        price={5950}
-        ingredients={`mozzarella, tomates, jamón, orégano`}
-        picture="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
-      ></CardPizza>
+        <CardPizza
+          name="Española"
+          price={6950}
+          ingredients={`mozzarella, gorgonzola, parmesano, provolone`}
+          picture="https://img-global.cpcdn.com/recipes/c8a84ffca7fcb1ab/680x482cq70/pizza-espanola-foto-principal.jpg"
+        ></CardPizza>
+        <CardPizza
+          name="Pepperoni"
+          price={6950}
+          ingredients={`mozzarella, pepperoni, orégano`}
+          picture="https://tupizzaiolo.com/wp-content/uploads/2021/07/Diseno-sin-titulo-1-min.jpg"
+        ></CardPizza>
+        <CardPizza
+          name="Napolitana"
+          price={5950}
+          ingredients={`mozzarella, tomates, jamón, orégano`}
+          picture="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
+        ></CardPizza>
       </div>
     </>
   );

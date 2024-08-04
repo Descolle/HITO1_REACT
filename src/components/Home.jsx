@@ -1,4 +1,4 @@
-import NavBar from "./Navbar"
+import NavBar from "./Navbar";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <hr></hr>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
