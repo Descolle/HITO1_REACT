@@ -5,6 +5,7 @@
 
 .FullNavbar {
   border: 3px solid goldenrod;
+  margin-bottom: 50px;
 
 }
 .items {
@@ -21,7 +22,19 @@
 .pizza {
   margin-top: 20px;
 }
-
+.pizza_name {
+  text-align: center;
+  text-decoration:underline;
+}
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ingrediente {
+  color: gray;
+  font-size: 15px;
+}
 .PizzaFondo {
   display: flex;
   flex-direction: column;
@@ -32,6 +45,15 @@
   justify-content: center;
 }
 
-.right {
-  margin-left: 800px;
+.valor {
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  display: grid;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }

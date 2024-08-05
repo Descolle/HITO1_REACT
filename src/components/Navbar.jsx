@@ -8,7 +8,6 @@ import lock from "../assets/img/lock.png";
 function NavBar() {
   const token = false;
   const total = 25000;
-  console.log(total.toLocaleString());
 
   return (
     <Navbar bg="dark" data-bs-theme="dark" className="d-flex">
@@ -29,7 +28,7 @@ function NavBar() {
         </Nav>
         <Nav className="ms-auto">
           <Button variant="outline-light" className="text-white">
-            🛒Total:<a href="#">${total.toLocaleString()}</a>
+            🛒Total:<a href="#" className="valor">${total.toLocaleString()}</a>
           </Button>
         </Nav>
       </Container>
