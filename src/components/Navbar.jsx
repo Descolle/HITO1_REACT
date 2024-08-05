@@ -7,9 +7,11 @@ import lock from "../assets/img/lock.png";
 
 function NavBar() {
   const token = false;
+  const total = 25000;
+  console.log(total.toLocaleString());
 
   return (
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="dark" data-bs-theme="dark" className="d-flex">
       <Container>
         <Navbar.Brand>Pizzeria Mamma Mia!</Navbar.Brand>
         <Nav className="me-auto">
@@ -17,12 +19,17 @@ function NavBar() {
             🍕Home
           </Button>
           <Button variant="outline-light" className="text-white">
-            <image src={token ? lockopen : lock}></image>
+            <img src={token ? lockopen : lock} alt="lock status" />
             {token ? "Profile" : "Register"}
           </Button>
           <Button variant="outline-light" className="text-white">
-            <image src={token ? lockopen : lock}></image>
+            <img src={token ? lockopen : lock} alt="lock status" />
             {token ? "LogOut" : "Login"}
+          </Button>
+        </Nav>
+        <Nav className="ms-auto">
+          <Button variant="outline-light" className="text-white">
+            🛒Total:<a href="#">${total.toLocaleString()}</a>
           </Button>
         </Nav>
       </Container>

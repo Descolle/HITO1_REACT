@@ -10,12 +10,13 @@ function CardPizza({ name, price, ingredients, picture }) {
           <Card.Img variant="top" src={picture} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
-            <Card.Text className="items">
-              Ingredientes: 🍕 {ingredients}
-            </Card.Text>
+            <div>
+              <h5 className="item">Ingredientes:</h5>
+              <p>🍕 {ingredients}</p>
+            </div>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroup.Item>Valor:{price}</ListGroup.Item>
+            <ListGroup.Item><strong>Valor:${price}</strong></ListGroup.Item>
           </ListGroup>
           <Card.Body>
             <Button variant="primary">Ver Más</Button>{" "}

@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import CardPizza from "./components/CardPizza";
 import "./App.css";
 
+
 function App() {
   return (
     <>
