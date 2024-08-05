@@ -18,6 +18,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   border: 3px solid goldenrod;
+  margin-bottom: 50px;
 }
 .pizza {
   margin-top: 20px;
